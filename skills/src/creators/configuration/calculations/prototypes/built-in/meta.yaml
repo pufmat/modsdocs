@@ -1,0 +1,20 @@
+collapsed: false
+sidebar:
+  - number: Number
+  - boolean: Boolean
+  - server: Server
+  - world: World
+  - entity-type: Entity Type
+  - entity: Entity
+  - living-entity: Living Entity
+  - player: Player
+  - item: Item
+  - item-stack: Item Stack
+  - block: Block
+  - block-state: Block State
+  - damage-type: Damage Type
+  - damage-source: Damage Source
+  - stat-type: Stat Type
+  - stat: Stat
+  - status-effect-instance: Status Effect Instance
+  - entity-attribute-instance: Entity Attribute Instance

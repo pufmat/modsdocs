@@ -1,0 +1,17 @@
+{
+	"name": "docs",
+	"version": "1.0.0",
+	"private": true,
+	"workspaces": [
+		"attributes",
+		"skills"
+	],
+	"devDependencies": {
+		"@types/node": "^22.13.4",
+		"vitepress": "^1.6.3",
+		"yaml": "^2.7.0"
+	},
+	"dependencies": {
+		"@zip.js/zip.js": "^2.7.57"
+	}
+}

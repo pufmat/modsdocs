@@ -1,0 +1,13 @@
+collapsed: false
+sidebar:
+  - craft-item: Craft Item
+  - deal-damage: Deal Damage
+  - eat-food: Eat Food
+  - fish-item: Fish Item
+  - heal: Heal
+  - increase-stat: Increase Stat
+  - kill-entity: Kill Entity
+  - break-block: Break Block
+  - mine-block: Mine Block
+  - shared-kill-entity: Shared Kill Entity
+  - take-damage: Take Damage

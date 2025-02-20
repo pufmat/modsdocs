@@ -1,0 +1,8 @@
+collapsed: true
+sidebar:
+  - config: config.json
+  - category: category.json
+  - definitions: definitions.json
+  - skills: skills.json
+  - connections: connections.json
+  - experience: experience.json

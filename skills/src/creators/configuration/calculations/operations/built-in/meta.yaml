@@ -1,0 +1,17 @@
+collapsed: false
+sidebar:
+  - get-attribute: Get Attribute
+  - get-effect: Get Effect
+  - get-score: Get Score
+  - get-stat-value: Get Stat Value
+  - has-tag: Has Tag
+  - switch: Switch
+  - test-block: Test Block
+  - test-block-state: Test Block State
+  - test-item: Test Item
+  - test-item-stack: Test Item Stack
+  - test-stat: Test Stat
+  - test-stat-type: Test Stat Type
+  - test-entity-type: Test Entity Type
+  - test-damage-type: Test Damage Type
+  - damage-type-classification: Damage Type Classification

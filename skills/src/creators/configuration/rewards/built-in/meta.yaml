@@ -1,0 +1,6 @@
+collapsed: false
+sidebar:
+  - attribute: Attribute
+  - command: Command
+  - scoreboard: Scoreboard
+  - tag: Tag
