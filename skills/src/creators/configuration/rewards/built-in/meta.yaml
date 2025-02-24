@@ -3,4 +3,5 @@ sidebar:
   - attribute: Attribute
   - command: Command
   - scoreboard: Scoreboard
+  - points: Points
   - tag: Tag

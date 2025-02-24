@@ -6,6 +6,7 @@ sidebar:
   - get-stat-value: Get Stat Value
   - has-tag: Has Tag
   - switch: Switch
+  - test-world: Test World
   - test-block: Test Block
   - test-block-state: Test Block State
   - test-item: Test Item
