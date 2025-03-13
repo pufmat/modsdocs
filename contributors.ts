@@ -76,7 +76,16 @@ const contributors: Record<string, Omit<DefaultTheme.TeamMember, "name">> = {
 		title: "Brazilian translation",
 		// discord: lev6987
 		// commit: 1b8ccedb3d2b106fef78ce94578fd94db8cfcef7
-	}
+	},
+	"JosipFX": {
+		avatar: "https://github.com/JosipFX1.png",
+		title: "Croatian translation",
+		links: [
+			{ icon: "github", link: "https://github.com/JosipFX1" }
+		]
+		// discord: josipfx
+		// commit: 00cea4d88a01ad8bc38d98ac5bba1a0e2e4d47d5
+	},
 };
 
 export function getContributors(names: string[]): DefaultTheme.TeamMember[] {

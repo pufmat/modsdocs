@@ -13,6 +13,7 @@ const contributors = getContributors([
 	"smoong",
 	"junshengxie",
 	"Lev",
+	"JosipFX",
 ]);
 </script>
 
