@@ -24,10 +24,10 @@ Operation `get_max_health` returns `puffish_skills:number` prototype which repre
 
 Operation `get_health` returns `puffish_skills:number` prototype which represents current health of the entity.
 
-### [Get Effect](/creators/configuration/calculations/operations/built-in/test-block-state)
+### [Get Effect](/creators/configuration/calculations/operations/built-in/get-effect)
 
 Operation `puffish_skills:get_effect` returns `minecraft:status_effect_instance` prototype.
 
-### [Get Attributes](/creators/configuration/calculations/operations/built-in/test-block-state)
+### [Get Attributes](/creators/configuration/calculations/operations/built-in/get-attribute)
 
 Operation `puffish_skills:get_attributes` returns `minecraft:entity_attribute_instance` prototype.

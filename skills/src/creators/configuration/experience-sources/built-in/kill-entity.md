@@ -87,7 +87,7 @@ The following experience gives respectively 200 and 600 experience for killing W
 					{
 						"type": "puffish_skills:test",
 						"data": {
-							"entity": "minecraft:wither"
+							"entity_type": "minecraft:wither"
 						}
 					}
 				]
@@ -103,7 +103,7 @@ The following experience gives respectively 200 and 600 experience for killing W
 					{
 						"type": "puffish_skills:test",
 						"data": {
-							"entity": "minecraft:ender_dragon"
+							"entity_type": "minecraft:ender_dragon"
 						}
 					}
 				]
