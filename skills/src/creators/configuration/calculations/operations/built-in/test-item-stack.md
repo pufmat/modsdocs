@@ -38,9 +38,46 @@ The operation is used to test item stack kind, such that the experience source g
 ```
 :::
 
+The operation is used to test if item stack is enchanted with silk touch. This information is then used such that the experience source gives the player exactly 5 experience every time the player mines a block unless the tool is enchanted with silk touch.
+::: details Click to view
+```json
+{
+	"type": "puffish_skills:mine_block",
+	"data": {
+		"variables": {
+			"is_silk_touch": {
+				"operations": [
+					{
+						"type": "get_tool_item_stack"
+					},
+					{ // [!code focus:10]
+						"type": "puffish_skills:test",
+						"data": {
+							"components": {
+								"minecraft:enchantments": {
+									"minecraft:silk_touch": 1
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"experience": [
+			{
+				"condition": "!is_silk_touch",
+				"expression": "5"
+			}
+		]
+	}
+}
+```
+:::
+
 ## JSON structure
 
 |Property|Type|Required|
 |-|-|-|
 |`item`|[item identifier](https://minecraft.wiki/w/Java_Edition_data_values#Items) or [item tag](https://minecraft.wiki/w/Tag#Items)|no|
 |`nbt`|[item nbt](https://minecraft.wiki/w/NBT_format)|no|
+|`components`|[data component predicate](https://minecraft.wiki/w/Data_component_predicate)|no|
