@@ -1,6 +1,6 @@
-# Mine Block Experience Source
+# Break Block Experience Source
 
-Experience Source `puffish_skills:mine_block` gives experience when player breaks a block. It includes blocks broken with incorrect tool.
+Experience Source `puffish_skills:break_block` gives experience when player breaks a block. It includes blocks broken with incorrect tool.
 
 This [Experience Source](/creators/configuration/experience-sources/experience-source) uses [Variables](/creators/configuration/calculations/variables) and [Calculation](/creators/configuration/calculations/calculation).
 
@@ -56,6 +56,6 @@ The following experience source gives the player exactly 5 experience every time
 
 ## JSON Structure:
 
-### `source_data` object when `type` is `mine_block`:
+### `source_data` object when `type` is `break_block`:
 
 This experience source uses calculations. Read more about them [here](/creators/configuration/calculations/calculation).
