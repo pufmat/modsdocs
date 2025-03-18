@@ -2,6 +2,10 @@
 
 Converts [`minecraft:living_entity` prototype](/creators/configuration/calculations/prototypes/built-in/living-entity) into [`minecraft:entity_attribute_instance` prototype](/creators/configuration/calculations/prototypes/built-in/entity-attribute-instance) such that it represents the instance of given attribute. If the target has no attribute returns nothing.
 
+### Properties
+#### Attribute
+Property `attribute` defines an [Attribute](https://minecraft.wiki/w/Attribute). This operation will get the attribute from the living entity.
+
 # Examples
 
 The operation is used to get attribute `generic.luck` on the player and then the value of it, such that the experience source gives extra experience every time player kill entity.
