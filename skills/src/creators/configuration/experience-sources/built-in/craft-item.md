@@ -48,3 +48,35 @@ The following experience source gives the player exactly 5 experience every time
 }
 ```
 :::
+---
+This experience source will give 3 experience to player when Bread is crafted.
+::: details Click to view
+```json
+{
+	"type": "puffish_skills:craft_item",
+	"data": {
+		"variables": {
+			"is_bread": {
+				"operations": [
+					{
+						"type": "get_crafted_item_stack"
+					},
+					{
+						"type": "puffish_skills:test",
+						"data": {
+							"item": "minecraft:bread"
+						}
+					}
+				]
+			}
+		},
+		"experience": [
+			{
+				"condition": "is_bread",
+				"expression": "3"
+			}
+		]
+	}
+}
+```
+:::
