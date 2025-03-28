@@ -7,6 +7,7 @@ There are following built-in experience sources:
 * [Craft Item](/creators/configuration/experience-sources/built-in/craft-item)
 * [Deal Damage](/creators/configuration/experience-sources/built-in/deal-damage)
 * [Eat Food](/creators/configuration/experience-sources/built-in/eat-food)
+* [Enchant Item](/creators/configuration/experience-sources/built-in/enchant-item)
 * [Fish Item](/creators/configuration/experience-sources/built-in/fish-item)
 * [Heal](/creators/configuration/experience-sources/built-in/heal)
 * [Increase Stat](/creators/configuration/experience-sources/built-in/increase-stat)

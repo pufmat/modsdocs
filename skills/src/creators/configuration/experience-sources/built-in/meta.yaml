@@ -3,6 +3,7 @@ sidebar:
   - craft-item: Craft Item
   - deal-damage: Deal Damage
   - eat-food: Eat Food
+  - enchant-item: Enchant Item
   - fish-item: Fish Item
   - heal: Heal
   - increase-stat: Increase Stat
