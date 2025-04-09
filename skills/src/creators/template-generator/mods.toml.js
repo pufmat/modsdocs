@@ -1,6 +1,6 @@
 export default ({ name, namespace, description}) => `
 modLoader="lowcodefml"
-loaderVersion="[40,)"
+loaderVersion="[1,)"
 license="Unlicense"
 
 [[mods]]
