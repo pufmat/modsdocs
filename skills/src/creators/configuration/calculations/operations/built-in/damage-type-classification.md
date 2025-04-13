@@ -4,15 +4,15 @@
 
 ### Is Melee
 
-Converts [`minecraft:damage_type` prototype](/creators/configuration/calculations/prototypes/built-in/damage-type) into [`puffish_skills:boolean` prototype](/creators/configuration/calculations/prototypes/built-in/boolean) whether the damage type is considered melee.
+Converts [`minecraft:damage_source` prototype](/creators/configuration/calculations/prototypes/built-in/damage-source) into [`puffish_skills:boolean` prototype](/creators/configuration/calculations/prototypes/built-in/boolean) whether the damage type is considered melee.
 
 ### Is Projectile
 
-Converts [`minecraft:damage_type` prototype](/creators/configuration/calculations/prototypes/built-in/damage-type) into [`puffish_skills:boolean` prototype](/creators/configuration/calculations/prototypes/built-in/boolean) whether the damage type is considered projectile.
+Converts [`minecraft:damage_source` prototype](/creators/configuration/calculations/prototypes/built-in/damage-source) into [`puffish_skills:boolean` prototype](/creators/configuration/calculations/prototypes/built-in/boolean) whether the damage type is considered projectile.
 
 ### Is Magic
 
-Converts [`minecraft:damage_type` prototype](/creators/configuration/calculations/prototypes/built-in/damage-type) into [`puffish_skills:boolean` prototype](/creators/configuration/calculations/prototypes/built-in/boolean) whether the damage type is considered magic.
+Converts [`minecraft:damage_source` prototype](/creators/configuration/calculations/prototypes/built-in/damage-source) into [`puffish_skills:boolean` prototype](/creators/configuration/calculations/prototypes/built-in/boolean) whether the damage type is considered magic.
 
 ## Examples
 
@@ -28,11 +28,8 @@ The operation is used to classify damage type, such that the experience source g
 					{
 						"type": "get_damage_source"
 					},
-					{
-						"type": "get_type"
-					},
 					{ // [!code focus:3]
-						"type": "puffish_skills:is_magic",
+						"type": "puffish_skills:is_magic"
 					},
 					{
 						"type": "switch",
