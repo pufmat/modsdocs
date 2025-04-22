@@ -20,9 +20,9 @@ The operation is used to get attribute `generic.luck` on the player and then the
 						"type": "as_living_entity"
 					},
 					{ // [!code focus:6]
-						"type": "puffish_skills:attribute",
+						"type": "puffish_skills:get_attribute",
 						"data": {
-							"effect": "generic.luck"
+							"attribute": "generic.luck"
 						}
 					},
 					{

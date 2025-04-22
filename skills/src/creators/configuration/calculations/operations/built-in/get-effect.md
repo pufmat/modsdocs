@@ -20,7 +20,7 @@ The operation is used to get effect `luck` on the player and then the level of i
 						"type": "as_living_entity"
 					},
 					{ // [!code focus:6]
-						"type": "puffish_skills:effect",
+						"type": "puffish_skills:get_effect",
 						"data": {
 							"effect": "luck"
 						}
