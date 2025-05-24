@@ -42,6 +42,10 @@ Attribute `puffish_attributes:stamina` allows changing hard coded stamina value,
 
 [Dynamic attribute] `puffish_attributes:fortune` increases fortune when mining a block, also applies without having fortune enchant on the item.
 
+This attribute also supports fractions, unlike vanilla fortune which only supports integers. This is done by randomly choosing either an attribute value rounded up or down with probability being the fractional part of the attribute value.
+
+For example attribute value 1.75 results randomly in vanilla fortune either 1 or 2 with a chance of 25% and 75% respectively.
+
 ## Magic Damage
 
 [Dynamic attribute] `puffish_attributes:magic_damage` increases damage dealt using magic.
