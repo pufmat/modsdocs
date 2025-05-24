@@ -51,7 +51,7 @@ The following experience source gives a player experience value equal to 25% of 
 ```
 :::
 ---
-This experience source gives player 10 experience if an entity is killed with a Diamond Sword.
+This experience source gives player 10 experience if an entity is killed with a diamond sword.
 ::: details Click to view
 ```json
 {

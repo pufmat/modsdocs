@@ -49,7 +49,7 @@ The following experience source gives the player exactly 5 experience every time
 ```
 :::
 ---
-This experience source will give 3 experience to player when Bread is crafted.
+This experience source will give 3 experience to player when bread is crafted.
 ::: details Click to view
 ```json
 {

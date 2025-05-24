@@ -3,7 +3,10 @@
 Converts [`minecraft:living_entity` prototype](/creators/configuration/calculations/prototypes/built-in/living-entity) into [`minecraft:status_effect_instance` prototype](/creators/configuration/calculations/prototypes/built-in/status-effect-instance) such that it represents the instance of given effect. If the target has no effect returns nothing.
 
 ### Properties
-Property `effect` defines an [Effect](https://minecraft.wiki/w/Effect). This operation will return the Effect from the living entity.
+
+### Effect
+
+Property `effect` defines an [Effect](https://minecraft.wiki/w/Effect). The operation will return [`minecraft:status_effect_instance`](/creators/configuration/calculations/prototypes/built-in/status-effect-instance) of this effect from the living entity.
 
 # Examples
 

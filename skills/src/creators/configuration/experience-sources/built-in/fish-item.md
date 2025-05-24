@@ -56,7 +56,7 @@ The following experience source gives the player exactly 5 experience every time
 ```
 :::
 ---
-This experience source gives player 1 experience if they catch a Pufferfish.
+This experience source gives the player 1 experience when the player catches a pufferfish.
 ::: details Click to view
 ```json
 {

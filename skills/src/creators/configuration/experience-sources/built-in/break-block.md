@@ -1,4 +1,4 @@
-# Mine Block Experience Source
+# Break Block Experience Source
 
 Experience Source `puffish_skills:break_block` gives experience when player breaks a block. It includes blocks broken with incorrect tool.
 
@@ -54,7 +54,7 @@ The following experience source gives the player exactly 5 experience every time
 ```
 :::
 ---
-This experience source will give player 1 experience if block was destroy with an Shovel.
+This experience source will give player 1 experience if block was destroyed with an iron shovel.
 ::: details Click to view
 ```json
 {
