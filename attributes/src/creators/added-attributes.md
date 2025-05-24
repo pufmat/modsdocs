@@ -50,13 +50,19 @@ For example attribute value 1.75 results randomly in vanilla fortune either 1 or
 
 [Dynamic attribute] `puffish_attributes:magic_damage` increases damage dealt using magic.
 
+Damage is considered magic if damage type is `minecraft:magic` or `minecraft:indirect_magic` or is in `c:is_magic` tag or `neoforge:is_magic` tag.
+
 ## Melee Damage
 
 [Dynamic attribute] `puffish_attributes:melee_damage` increases damage dealt using melee weapons.
 
+Damage is considered melee if damage source is direct and damage type is not in `minecraft:is_projectile` tag.
+
 ## Ranged damage
 
 [Dynamic attribute] `puffish_attributes:ranged_damage` increases damage dealt using ranged weapons.
+
+Damage is considered ranged if damage source is indirect or damage type is in `minecraft:is_projectile` tag.
 
 ## Healing
 
