@@ -48,6 +48,10 @@ Property `required_skills` defines how many neighbor skills need to be unlocked 
 
 Property `required_spent_points` defines how many already spent points in the current tree are required to unlock the skill. If not set then defaults to `0`.
 
+### Required Exclusions
+
+Property `required_exclusions` defines how many neighbor skills connected with [Exclusive Connections](/creators/configuration/connections#exclusive-connections) must be unlocked for the skill to become excluded. If not set then defaults to `1`.
+
 ## Example
 
 The following definition describes a skill that after unlocking gives a player one more hearth (2 health points).
@@ -88,3 +92,4 @@ The following definition describes a skill that after unlocking gives a player o
 |`required_points`|integer|no|
 |`required_skills`|integer|no|
 |`required_spent_points`|integer|no|
+|`required_exclusions`|integer|no|
