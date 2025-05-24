@@ -120,19 +120,19 @@ Attribute `puffish_attributes:stamina` allows changing hard coded stamina value,
 
 ## Resistance Shred
 
-[Dynamic attribute] `puffish_attributes:resistance` decreases resistance attribute for the attacked entity.
+[Dynamic attribute] `puffish_attributes:resistance_shred` decreases resistance attribute for the attacked entity.
 
 ## Magic Resistance Shred
 
-[Dynamic attribute] `puffish_attributes:magic_resistance` decreases magic resistance attribute for the attacked entity.
+[Dynamic attribute] `puffish_attributes:magic_resistance_shred` decreases magic resistance attribute for the attacked entity.
 
 ## Melee Resistance Shred
 
-[Dynamic attribute] `puffish_attributes:melee_resistance` decreases melee resistance attribute for the attacked entity.
+[Dynamic attribute] `puffish_attributes:melee_resistance_shred` decreases melee resistance attribute for the attacked entity.
 
 ## Ranged Resistance Shred
 
-[Dynamic attribute] `puffish_attributes:ranged_resistance` decreases ranged resistance attribute for the attacked entity.
+[Dynamic attribute] `puffish_attributes:ranged_resistance_shred` decreases ranged resistance attribute for the attacked entity.
 
 ## Natural Regeneration
 
