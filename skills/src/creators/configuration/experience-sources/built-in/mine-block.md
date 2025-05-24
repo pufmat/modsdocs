@@ -54,6 +54,39 @@ The following experience source gives the player exactly 5 experience every time
 ```
 :::
 
+---
+This experience source will give player 2 experience if block was mined with a gold pickaxe.
+::: details Click to view
+```json
+{
+	"type": "puffish_skills:mine_block",
+	"data": {
+		"variables": {
+			"is_gold_pickaxe": {
+				"operations": [
+					{
+						"type": "get_tool_item_stack"
+					},
+					{
+						"type": "puffish_skills:test",
+						"data": {
+							"item": "gold_pickaxe"
+						}
+					}
+				]
+			}
+		},
+		"experience": [
+			{
+				"condition": "is_gold_pickaxe",
+				"expression": "2"
+			}
+		]
+	}
+}
+```
+:::
+
 ## JSON Structure:
 
 ### `source_data` object when `type` is `mine_block`:

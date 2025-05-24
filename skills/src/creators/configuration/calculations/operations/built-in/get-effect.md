@@ -2,6 +2,12 @@
 
 Converts [`minecraft:living_entity` prototype](/creators/configuration/calculations/prototypes/built-in/living-entity) into [`minecraft:status_effect_instance` prototype](/creators/configuration/calculations/prototypes/built-in/status-effect-instance) such that it represents the instance of given effect. If the target has no effect returns nothing.
 
+### Properties
+
+### Effect
+
+Property `effect` defines an [Effect](https://minecraft.wiki/w/Effect). The operation will return [`minecraft:status_effect_instance`](/creators/configuration/calculations/prototypes/built-in/status-effect-instance) of this effect from the living entity.
+
 # Examples
 
 The operation is used to get effect `luck` on the player and then the level of it, such that the experience source gives extra experience every time player kill entity.

@@ -55,3 +55,35 @@ The following experience source gives the player exactly 5 experience every time
 }
 ```
 :::
+---
+This experience source gives the player 1 experience when the player catches a pufferfish.
+::: details Click to view
+```json
+{
+	"type": "puffish_skills:fish_item",
+	"data": {
+		"variables": {
+			"is_pufferfish": {
+				"operations": [
+					{
+						"type": "get_fished_item_stack"
+					},
+					{
+						"type": "puffish_skills:test",
+						"data": {
+							"item": "pufferfish"
+						}
+					}
+				]
+			}
+		},
+		"experience": [
+			{
+				"condition": "is_pufferfish",
+				"expression": "1"
+			}
+		]
+	}
+}
+```
+:::

@@ -50,3 +50,30 @@ The following experience source gives a player experience value equal to 25% of 
 }
 ```
 :::
+---
+This experience source gives player 10 experience if an entity is killed with a diamond sword.
+::: details Click to view
+```json
+{
+	"type": "puffish_skills:deal_damage",
+	"data": {
+		"variables": {
+			"damage": {
+				"operations": [
+					{
+						"type": "get_weapon_item_stack"
+					},
+					{
+						"type": "puffish_skills:test",
+						"data": {
+							"item": "diamond_sword"
+						}
+					}
+				]
+			}
+		},
+		"experience": "10"
+	}
+}
+```
+:::

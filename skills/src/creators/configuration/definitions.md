@@ -81,7 +81,7 @@ The following definition describes a skill that after unlocking gives a player o
 |`title`|[`text`](/creators/configuration/text) object|yes|
 |`icon`|[`icon`](/creators/configuration/icons) object|yes|
 |`frame`|[`frame`](/creators/configuration/frames) object|yes|
-|`size`|float|on|
+|`size`|float|no|
 |`description`|[`text`](/creators/configuration/text) object|no|
 |`rewards`|[`rewards`](/creators/configuration/rewards/reward) array|no|
 |`cost`|integer|no|

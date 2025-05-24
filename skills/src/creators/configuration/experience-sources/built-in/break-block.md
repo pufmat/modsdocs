@@ -53,6 +53,38 @@ The following experience source gives the player exactly 5 experience every time
 }
 ```
 :::
+---
+This experience source will give player 1 experience if block was destroyed with an iron shovel.
+::: details Click to view
+```json
+{
+	"type": "puffish_skills:break_block",
+	"data": {
+		"variables": {
+			"is_shovel": {
+				"operations": [
+					{
+						"type": "get_tool_item_stack"
+					},
+					{
+						"type": "puffish_skills:test",
+						"data": {
+							"item": "iron_shovel"
+						}
+					}
+				]
+			}
+		},
+		"experience": [
+			{
+				"condition": "is_shovel",
+				"expression": "1"
+			}
+		]
+	}
+}
+```
+:::
 
 ## JSON Structure:
 
