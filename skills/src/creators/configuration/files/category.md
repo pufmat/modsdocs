@@ -20,6 +20,10 @@ Property `background` can be used to set category [background](/creators/configu
 
 Property `unlocked_by_default` can be used to define if category should be unlocked be default. When set to `false`, category must be manually unlocked using commands or API.
 
+### Starting Points
+
+Property `starting_points` can be used to set starting points for category. When this option is not set it defaults to 0.
+
 ### Spent Points Limit
 
 Property `spent_points_limit` can be used to set maximum number of points that can be spent in this category. When this option is not set there is no limit.
@@ -53,5 +57,6 @@ Property `exclusive_root` can be used to set behavior of [root skills](https://p
 |`icon`|`icon` object|yes|
 |`background`|string|yes|
 |`unlocked_by_default`|boolean|no|
+|`starting_points`|integer|no|
 |`spent_points_limit`|integer|no|
 |`exclusive_root`|boolean|no|
