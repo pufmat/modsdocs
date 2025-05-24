@@ -36,6 +36,8 @@ Property `rewards` defines the list of [rewards](/creators/configuration/rewards
 
 Property `cost` defines how many points are required to unlock this skill, and how many points will be subtracted after unlocking. If not set then defaults to `1`.
 
+Since skill cost is a part of the configuration, it is [not stored](/creators/configuration/skill.md#storage) and so when the skill is removed the cost won't be included in calculating spent points. This means that when the skill is removed the players who had it unlocked will get the points refunded for it.
+
 ### Required Points
 
 Property `required_points` defines how many points are required to unlock this skill. If not set then defaults to `0`.
