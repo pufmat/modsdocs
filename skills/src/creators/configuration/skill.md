@@ -19,6 +19,10 @@ When `exclusive_root` is set to `false`, or is not set at all. Then all root ski
 
 When `exclusive_root` is set to `true`. Then all root skills are available, but after one of them is unlocked, other root skills became locked. However they can still be later unlocked just like normal skills.
 
+## Storage
+
+The mod only stores IDs of unlocked skills for each player. This includes skill that were removed from the configuration. This means that if a skill is later readded with the same ID, the players who had it unlocked in the past will now have it unlocked again.
+
 ## Properties
 
 ::: warning
