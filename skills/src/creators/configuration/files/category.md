@@ -14,7 +14,7 @@ Property `icon` can be used to set category icon visible in game.
 
 ### Background
 
-Property `background` can be used to set category [background](/creators/configuration/background) visible in game.
+Property `background` can be used to set category [background](/creators/configuration/appearance/background) visible in game.
 
 ### Unlocked by Default
 

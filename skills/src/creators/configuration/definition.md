@@ -10,11 +10,11 @@ Property `title` defines the skill title that will be visible in the game.
 
 ### Frame
 
-Property `frame` defines the skill [frame](/creators/configuration/frames) that will be visible in the game.
+Property `frame` defines the skill [frame](/creators/configuration/appearance/frame) that will be visible in the game.
 
 ### Icon
 
-Property `icon` defines the skill [icon](/creators/configuration/icons) that will be visible in the game.
+Property `icon` defines the skill [icon](/creators/configuration/appearance/icon) that will be visible in the game.
 
 ### Size
 
@@ -50,7 +50,7 @@ Property `required_spent_points` defines how many already spent points in the cu
 
 ### Required Exclusions
 
-Property `required_exclusions` defines how many neighbor skills connected with [Exclusive Connections](/creators/configuration/connections#exclusive-connections) must be unlocked for the skill to become excluded. If not set then defaults to `1`.
+Property `required_exclusions` defines how many neighbor skills connected with [Exclusive Connections](/creators/configuration/connection#exclusive-connections) must be unlocked for the skill to become excluded. If not set then defaults to `1`.
 
 ## Example
 
@@ -82,11 +82,11 @@ The following definition describes a skill that after unlocking gives a player o
 
 |Property|Type|Required|
 |-|-|-|
-|`title`|[`text`](/creators/configuration/text) object|yes|
-|`icon`|[`icon`](/creators/configuration/icons) object|yes|
-|`frame`|[`frame`](/creators/configuration/frames) object|yes|
+|`title`|[`text`](/creators/configuration/appearance/text) object|yes|
+|`icon`|[`icon`](/creators/configuration/appearance/icon) object|yes|
+|`frame`|[`frame`](/creators/configuration/appearance/frame) object|yes|
 |`size`|float|no|
-|`description`|[`text`](/creators/configuration/text) object|no|
+|`description`|[`text`](/creators/configuration/appearance/text) object|no|
 |`rewards`|[`rewards`](/creators/configuration/rewards/reward) array|no|
 |`cost`|integer|no|
 |`required_points`|integer|no|

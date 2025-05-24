@@ -1,4 +1,4 @@
-# Expressions
+# Expression
 
 Expressions are used to define calculations used for different purposes. They can have variables to allow more advanced configuration.
 

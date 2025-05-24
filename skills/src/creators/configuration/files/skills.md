@@ -8,7 +8,7 @@ It is recommended to not edit this file by manually. Use [editor](/creators/edit
 
 ## Properties
 
-Each property is the skill ID and the value is the [`skill`](/creators/configuration/skills) object.
+Each property is the skill ID and the value is the [`skill`](/creators/configuration/skill) object.
 
 ## Example
 

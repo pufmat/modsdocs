@@ -64,4 +64,4 @@ The following example specifies textures for all states except Affordable. The t
 }
 ```
 
-[states]: /creators/configuration/skills#states
+[states]: /creators/configuration/skill#states

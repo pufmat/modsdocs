@@ -1,0 +1,7 @@
+collapsed: true
+sidebar:
+  - text: Text
+  - icon: Icon
+  - frame: Frame
+  - background: Background
+  - color: Color

@@ -4,7 +4,7 @@ This config is used to create skill definitions to use them as templates in skil
 
 ## Properties
 
-Each property is the definition ID and the value is the [`definition`](/creators/configuration/definitions) object.
+Each property is the definition ID and the value is the [`definition`](/creators/configuration/definition) object.
 
 ## Example
 
