@@ -19,6 +19,12 @@ Expressions are used to define calculations used for different purposes. They ca
 - `x & y` - and
 - `x | y` - or
 - `!x` - not
+- `<` - less than
+- `<=` - less than or equal
+- `>` - greater than
+- `>=` - greater than or equal
+- `=` - equal
+- `<>` - not equal
 
 ## Functions
 
