@@ -81,6 +81,13 @@ This is probably the most complex part of configuration.
 |-|-|
 |`type`|A string. Defines the type of the source.|
 |`data`|An `source_data` element.|
+|`team_sharing`|An `team_sharing` object.|
+
+### `team_sharing` object
+
+|Property|Description|
+|-|-|
+|`distance_limit`|An float. Defines the distance limit for sharing experience between players in the same team.|
 
 ## Experience sources
 
