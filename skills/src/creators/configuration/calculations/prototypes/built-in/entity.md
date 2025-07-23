@@ -12,6 +12,10 @@ Operation `get_type` returns `minecraft:entity_type` prototype.
 
 Operation `get_world` returns `minecraft:world` prototype.
 
+### [Test](/creators/configuration/calculations/operations/built-in/test-entity)
+
+Operation `puffish_skills:test` returns `puffish_skills:boolean` prototype which represents if the entity matches given condition.
+
 ### [Get Score](/creators/configuration/calculations/operations/built-in/get-score)
 
 Operation `puffish_skills:get_score` returns `minecraft:number` prototype which represents the score of the living entity in the given objective scoreboard.

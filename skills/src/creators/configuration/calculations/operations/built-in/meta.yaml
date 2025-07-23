@@ -13,6 +13,7 @@ sidebar:
   - test-item-stack: Test Item Stack
   - test-stat: Test Stat
   - test-stat-type: Test Stat Type
+  - test-entity: Test Entity
   - test-entity-type: Test Entity Type
   - test-damage-type: Test Damage Type
   - damage-type-classification: Damage Type Classification
