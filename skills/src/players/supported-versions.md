@@ -1,4 +1,4 @@
-# Versions
+# Supported Versions
 
 <script lang="ts" setup>
 const Yes = () => "✅ Maintained";

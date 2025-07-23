@@ -1,5 +1,8 @@
 # Versions
 
+> [!NOTE]
+> The information about supported game versions can be found on the [Supported Versions](/players/supported-versions) page.
+
 The version of the mod is described by `X.Y.Z`
 
 - `X` - Incremented when major change is made.
