@@ -1,6 +1,6 @@
-# Test Damage Type Operation
+# Test Entity Type Operation
 
-Converts [`minecraft:entity_type` prototype](/creators/configuration/calculations/prototypes/built-in/entity-type) into [`puffish_skills:boolean` prototype](/creators/configuration/calculations/prototypes/built-in/boolean) whether the condition matches given block.
+Converts [`minecraft:entity_type` prototype](/creators/configuration/calculations/prototypes/built-in/entity-type) into [`puffish_skills:boolean` prototype](/creators/configuration/calculations/prototypes/built-in/boolean) whether the condition matches given entity.
 
 ## Examples
 
@@ -82,4 +82,4 @@ The operation is used to test entity type tag, such that the experience source g
 
 |Property|Type|Required|
 |-|-|-|
-|`damage_type`|[damage identifier](https://minecraft.wiki/w/Damage_type) or [damage tag](https://minecraft.wiki/w/Tag#Damage_types)|yes|
+|`entity_type`|[entity identifier](https://minecraft.wiki/w/Entity#Types_of_entities) or [entity tag](https://minecraft.wiki/w/Entity_type_tag_(Java_Edition))|yes|
