@@ -1,5 +1,6 @@
 collapsed: false
 sidebar:
+  - versions: Versions
   - commands: Commands
   - faq: FAQ
   - tutorials: Tutorials
