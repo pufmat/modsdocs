@@ -7,11 +7,11 @@
 		"skills"
 	],
 	"devDependencies": {
-		"@types/node": "^22.13.4",
+		"@types/node": "^24.1.0",
 		"vitepress": "^1.6.3",
-		"yaml": "^2.7.0"
+		"yaml": "^2.8.0"
 	},
 	"dependencies": {
-		"@zip.js/zip.js": "^2.7.57"
+		"@zip.js/zip.js": "^2.7.67"
 	}
 }
