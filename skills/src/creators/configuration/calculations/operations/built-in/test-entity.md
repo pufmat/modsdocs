@@ -76,4 +76,5 @@ The operation is used to test entity, such that the experience source gives the 
 
 |Property|Type|Required|
 |-|-|-|
-|`entity_type`|[entity identifier](https://minecraft.wiki/w/Entity#Types_of_entities) or [entity tag](https://minecraft.wiki/w/Entity_type_tag_(Java_Edition))|yes|
+|`entity_type`|[entity identifier](https://minecraft.wiki/w/Entity#Types_of_entities) or [entity tag](https://minecraft.wiki/w/Entity_type_tag_(Java_Edition))|no|
+|`nbt`|[entity nbt](https://minecraft.wiki/w/NBT_format)|no|

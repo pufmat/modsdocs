@@ -2,6 +2,9 @@
 
 Converts [`minecraft:entity_type` prototype](/creators/configuration/calculations/prototypes/built-in/entity-type) into [`puffish_skills:boolean` prototype](/creators/configuration/calculations/prototypes/built-in/boolean) whether the condition matches given entity.
 
+> [!INFO]
+> If you also want to test for entity NBT use [Test Entity Operation](/creators/configuration/calculations/operations/built-in/test-entity).
+
 ## Examples
 
 The operation is used to test entity type, such that the experience source gives the player exactly 5 experience every time the player kills zombie entity.
