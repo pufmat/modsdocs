@@ -1,5 +1,7 @@
 # Adding as a dependency
 
+Add repository:
+
 ::: code-group
 
 ```groovy [build.gradle]
@@ -18,6 +20,8 @@ repositories {
 
 :::
 
+Add dependencies:
+
 ::: code-group
 
 ```properties [Fabric]
@@ -28,17 +32,31 @@ dependencies {
 
 ```properties [Forge]
 dependencies {
-	compileOnly fg.deobf("net.puffish:skillsmod:<version>:forge")
+	implementation fg.deobf("net.puffish:skillsmod:<version>:forge")
 }
 ```
 
 ```properties [NeoForge]
 dependencies {
-	compileOnly fg.deobf("net.puffish:skillsmod:<version>:neoforge")
+	implementation fg.deobf("net.puffish:skillsmod:<version>:neoforge")
 }
 ```
 
 :::
+
+If the game crashed after adding dependencies due to Mixin errors then add following properties to your run configurations:
+```groovy
+minecraft {
+	runs {
+		configureEach {
+			property 'mixin.env.remapRefMap', 'true' // [!code focus:2]
+			property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+		}
+	}
+}
+```
+
+Add dependency metadata:
 
 ::: code-group
 
