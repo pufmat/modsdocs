@@ -7,12 +7,14 @@ List of added attributes:
 - Magic Damage
 - Melee Damage
 - Ranged damage
+- Tamed Damage
 - Healing
 - Jump
 - Resistance
 - Magic Resistance
 - Melee Resistance
 - Ranged Resistance
+- Tamed Resistance
 - Mining Speed
 - Pickaxe Speed
 - Axe Speed
@@ -64,6 +66,10 @@ Damage is considered melee if damage source is direct and damage type is not in 
 
 Damage is considered ranged if damage source is indirect or damage type is in `minecraft:is_projectile` tag.
 
+## Tamed Damage
+
+[Dynamic attribute] `puffish_attributes:tamed_damage` increases damage dealt by tamed entities which are owned by the player.
+
 ## Healing
 
 [Dynamic attribute] `puffish_attributes:healing` increases health that is restored by any kind of healing.
@@ -87,6 +93,10 @@ Damage is considered ranged if damage source is indirect or damage type is in `m
 ## Ranged Resistance
 
 [Dynamic attribute] `puffish_attributes:ranged_resistance` deceases amount of taken ranged damage.
+
+## Tamed Damage
+
+[Dynamic attribute] `puffish_attributes:tamed_resistance` deceases amount of taken damage for tamed entities which are owned by the player.
 
 ## Mining Speed
 
