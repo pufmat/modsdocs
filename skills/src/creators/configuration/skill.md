@@ -39,7 +39,7 @@ Property `definition` defines what entry from `definitions.json` should the skil
 
 ### Root
 
-Property `root` defines if the skill is a [root](https://puffish.net/skillsmod/docs/configuration/roots), which means it is unlocked at the beginning.
+Property `root` defines if the skill is a [root](/creators/configuration/skill#roots), which means it is unlocked at the beginning.
 
 ## Example
 

@@ -32,7 +32,7 @@ Inside your project folder there should be a `data` folder, and a `pack.mcmeta` 
 
 The `data` folder contains all data added by the data pack, grouped by sub folders which names represent namespaces. There should be a folder named by the namespace specified in the [Template Generator]. You should only add data in your namespace folder to avoid conflicts with other projects.
 
-The namespace folder should have a `puffish_skills` folder which contains configuration files for this mod. If the Example Skill Tree option was selected in the [Template Generator](https://puffish.net/skillsmod/docs/creators/template-generator), then there should be a `categories` folder, and a `config.json` file which specifies the version of the configuration and list of categories. The content should look like this:
+The namespace folder should have a `puffish_skills` folder which contains configuration files for this mod. If the Example Skill Tree option was selected in the [Template Generator](/creators/template-generator), then there should be a `categories` folder, and a `config.json` file which specifies the version of the configuration and list of categories. The content should look like this:
 ```json
 {
 	"version": 2,
@@ -50,7 +50,7 @@ The `categories` folder consists of other folders which names are IDs of the cat
 > [!TIP]
 > It is recommended to use an advanced text editor with syntax highlighting, automatic formatting and validation.
 
-Definitions can be seen as templates which define properties of each skill. They allow you to have multiple skill sharing the same properties, without need to specify properties of each skill separately. To add new definitions you need to modify the `definitions.json` file. All the information about what properties are allowed can be found in the [documentation of the definition](https://puffish.net/skillsmod/docs/creators/configuration/definitions). For easier and faster creation of the definition it is recommended to copy existing definition and modify it according to your needs.
+Definitions can be seen as templates which define properties of each skill. They allow you to have multiple skill sharing the same properties, without need to specify properties of each skill separately. To add new definitions you need to modify the `definitions.json` file. All the information about what properties are allowed can be found in the [documentation of the definition](/creators/configuration/definition). For easier and faster creation of the definition it is recommended to copy existing definition and modify it according to your needs.
 
 ## Using the online editor
 

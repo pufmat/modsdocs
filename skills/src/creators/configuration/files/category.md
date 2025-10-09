@@ -30,7 +30,7 @@ Property `spent_points_limit` can be used to set maximum number of points that c
 
 ### Exclusive Root
 
-Property `exclusive_root` can be used to set behavior of [root skills](https://puffish.net/skillsmod/docs/configuration/roots).
+Property `exclusive_root` can be used to set behavior of [root skills](/creators/configuration/skill#roots).
 
 ## Example
 
