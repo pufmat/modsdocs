@@ -158,7 +158,7 @@ Damage is considered ranged if damage source is indirect or damage type is in `m
 
 ### Jump
 
-[Dynamic attribute] `puffish_attributes:jump` increases the jump high of the player.
+[Dynamic attribute] `puffish_attributes:jump` increases the jump height of the player.
 
 ### Resistance
 
@@ -242,11 +242,11 @@ Damage is considered ranged if damage source is indirect or damage type is in `m
 
 ### Stealth
 
-[Dynamic attribute] `puffish_attributes:stealth` decreases distance of being detected by entities.
+[Dynamic attribute] `puffish_attributes:stealth` decreases distance of being detected by other entities in blocks. The default detection distance varies for each entity.
 
 ### Life Steal
 
-[Dynamic attribute] `puffish_attributes:life_steal` increases health restored relative to dealt damage.
+[Dynamic attribute] `puffish_attributes:life_steal` restores health relative to dealt damage.
 
 ### Fall Reduction
 

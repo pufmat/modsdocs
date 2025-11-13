@@ -1,6 +1,10 @@
 # Dynamic Attribute
 
-Most attributes added by the mod work different from vanilla attributed. Instead of providing a value they modify dynamic values, using addition or multiplication. They are calculated like normal attributes, but their base value is internally set to the dynamic value. Changing base value of these attributes is not possible, and it is always displayed as [NaN](https://en.wikipedia.org/wiki/NaN).
+Most attributes added by the mod work different from vanilla attributes. Instead of providing a value they modify dynamic values. They are calculated like normal attributes, but their base value is internally set to the dynamic value which is only known when a certain event happens.
+
+For example in case of `puffish_attributes:resistance` attribute, when the player takes damage, the base value is internally set to the amount of damage taken, then modifiers of that attribute are applied, and the result is the new damage amount.
+
+Changing base value of these attributes is not possible, and it is always displayed as [NaN](https://en.wikipedia.org/wiki/NaN). It is not due to a bug, but to indicate that it is a dynamic attribute and the base value should not be used.
 
 ## Examples
 
