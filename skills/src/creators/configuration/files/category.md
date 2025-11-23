@@ -8,6 +8,14 @@ This config is used to define general properties for the category. It is located
 
 Property `title` can be used to set category title visible in game.
 
+### Description
+
+Property `description` defines the category description visible in game. If not set it will not show.
+
+### Extra Description
+
+Property `extra_description` defines the extra description, which is only displayed while pressing <kbd>Shift</kbd>. If not set it will not show.
+
 ### Icon
 
 Property `icon` can be used to set category icon visible in game.
@@ -54,6 +62,8 @@ Property `exclusive_root` can be used to set behavior of [root skills](/creators
 |Property|Type|Required|
 |-|-|-|
 |`title`|`text` object|yes|
+|`description`|[`text`](/creators/configuration/appearance/text) object|no|
+|`extra_description`|[`text`](/creators/configuration/appearance/text) object|no|
 |`icon`|`icon` object|yes|
 |`background`|string|yes|
 |`unlocked_by_default`|boolean|no|
