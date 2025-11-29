@@ -8,7 +8,7 @@ The following reward sets the score in scoreboard for the player based on how ma
 {
 	"type": "puffish_skills:scoreboard",
 	"data": {
-		"scoreboard": "scoreboard_name_here"
+		"objective": "scoreboard_objective_name_here"
 	}
 }
 ```
@@ -19,4 +19,4 @@ The following reward sets the score in scoreboard for the player based on how ma
 
 |Property|Description|
 |-|-|
-|`scoreboard`|A string. A name of a scoreboard objective.|
+|`objective`|A string. A name of a scoreboard objective.|
