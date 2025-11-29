@@ -17,7 +17,7 @@ const Not = () => "⛔ Unavailable";
 	</thead>
 	<tbody>
 		<tr>
-			<td>1.21 - 1.21.8</td>
+			<td>1.21 - 1.21.10</td>
 			<td><Yes /></td>
 			<td><Not /></td>
 			<td><Yes /></td>
