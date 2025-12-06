@@ -176,7 +176,7 @@ Damage is considered ranged if damage source is indirect or damage type is in `m
 
 [Dynamic attribute] `puffish_attributes:ranged_resistance` deceases amount of taken ranged damage.
 
-### Tamed Damage
+### Tamed Resistance
 
 [Dynamic attribute] `puffish_attributes:tamed_resistance` deceases amount of taken damage for tamed entities which are owned by the player.
 
