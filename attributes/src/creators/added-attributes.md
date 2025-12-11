@@ -132,6 +132,7 @@ Some attributes are listed in multiple categories.
 - [Fall Reduction](#fall-reduction)
 - [Bow Projectile Speed](#bow-projectile-speed)
 - [Crossbow Projectile Speed](#crossbow-projectile-speed)
+- [Experience](#experience)
 :::
 
 ### Stamina
@@ -291,6 +292,10 @@ Damage is considered ranged if damage source is indirect or damage type is in `m
 ### Crossbow Projectile Speed
 
 [Dynamic attribute] `puffish_attributes:crossbow_projectile_speed` increases crossbow projectile speed.
+
+### Experience
+
+[Dynamic attribute] `puffish_attributes:experience` increases experience grained from collecting experience orbs for the player.
 
 
 
