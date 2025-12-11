@@ -41,6 +41,7 @@ Some attributes are listed in multiple categories.
 :::
 
 ::: details Resistance attributes
+- [Resistance](#resistance)
 - [Magic Resistance](#magic-resistance)
 - [Melee Resistance](#melee-resistance)
 - [Ranged Resistance](#ranged-resistance)
@@ -93,45 +94,45 @@ Some attributes are listed in multiple categories.
 
 ## Attributes
 
-List of added attributes:
-
-- Stamina
-- Fortune
-- Magic Damage
-- Melee Damage
-- Ranged Damage
-- Tamed Damage
-- Sword Damage
-- Axe Damage
-- Trident Damage
-- Mace Damage
-- Healing
-- Jump
-- Resistance
-- Magic Resistance
-- Melee Resistance
-- Ranged Resistance
-- Tamed Resistance
-- Mining Speed
-- Pickaxe Speed
-- Axe Speed
-- Shovel Speed
-- Sprinting Speed
-- Knockback
-- Repair Cost
-- Armor Shred
-- Toughness Shred
-- Protection Shred
-- Resistance Shred
-- Magic Resistance Shred
-- Melee Resistance Shred
-- Ranged Resistance Shred
-- Natural Regeneration
-- Stealth
-- Life Steal
-- Fall Reduction
-- Bow Projectile Speed
-- Crossbow Projectile Speed
+::: details List of all added attributes
+- [Stamina](#stamina)
+- [Fortune](#fortune)
+- [Magic Damage](#magic-damage)
+- [Melee Damage](#melee-damage)
+- [Ranged Damage](#ranged-damage)
+- [Tamed Damage](#tamed-damage)
+- [Sword Damage](#sword-damage)
+- [Axe Damage](#axe-damage)
+- [Trident Damage](#trident-damage)
+- [Mace Damage](#mace-damage)
+- [Healing](#healing)
+- [Jump](#jump)
+- [Resistance](#resistance)
+- [Magic Resistance](#magic-resistance)
+- [Melee Resistance](#melee-resistance)
+- [Ranged Resistance](#ranged-resistance)
+- [Tamed Resistance](#tamed-resistance)
+- [Mining Speed](#mining-speed)
+- [Pickaxe Speed](#pickaxe-speed)
+- [Axe Speed](#axe-speed)
+- [Shovel Speed](#shovel-speed)
+- [Sprinting Speed](#sprinting-speed)
+- [Knockback](#knockback)
+- [Repair Cost](#repair-cost)
+- [Armor Shred](#armor-shred)
+- [Toughness Shred](#toughness-shred)
+- [Protection Shred](#protection-shred)
+- [Resistance Shred](#resistance-shred)
+- [Magic Resistance Shred](#magic-resistance-shred)
+- [Melee Resistance Shred](#melee-resistance-shred)
+- [Ranged Resistance Shred](#ranged-resistance-shred)
+- [Natural Regeneration](#natural-regeneration)
+- [Stealth](#stealth)
+- [Life Steal](#life-steal)
+- [Fall Reduction](#fall-reduction)
+- [Bow Projectile Speed](#bow-projectile-speed)
+- [Crossbow Projectile Speed](#crossbow-projectile-speed)
+:::
 
 ### Stamina
 
