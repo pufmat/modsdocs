@@ -22,11 +22,22 @@ Some attributes are listed in multiple categories.
 - [Ranged Resistance Shred](#ranged-resistance-shred)
 :::
 
+::: details Weapon attributes
+- [Sword Damage](#sword-damage)
+- [Axe Damage](#axe-damage)
+- [Trident Damage](#trident-damage)
+- [Mace Damage](#mace-damage)
+:::
+
 ::: details Damage attributes
 - [Magic Damage](#magic-damage)
 - [Melee Damage](#melee-damage)
 - [Ranged Damage](#ranged-damage)
 - [Tamed Damage](#tamed-damage)
+- [Sword Damage](#sword-damage)
+- [Axe Damage](#axe-damage)
+- [Trident Damage](#trident-damage)
+- [Mace Damage](#mace-damage)
 :::
 
 ::: details Resistance attributes
@@ -90,6 +101,10 @@ List of added attributes:
 - Melee Damage
 - Ranged Damage
 - Tamed Damage
+- Sword Damage
+- Axe Damage
+- Trident Damage
+- Mace Damage
 - Healing
 - Jump
 - Resistance
@@ -151,6 +166,22 @@ Damage is considered ranged if damage source is indirect or damage type is in `m
 ### Tamed Damage
 
 [Dynamic attribute] `puffish_attributes:tamed_damage` increases damage dealt by tamed entities which are owned by the player.
+
+### Sword Damage
+
+[Dynamic attribute] `puffish_attributes:sword_damage` increases damage dealt using a sword.
+
+### Axe Damage
+
+[Dynamic attribute] `puffish_attributes:axe_damage` increases damage dealt using an axe.
+
+### Trident Damage
+
+[Dynamic attribute] `puffish_attributes:trident_damage` increases damage dealt using a trident.
+
+### Mace Damage
+
+[Dynamic attribute] `puffish_attributes:mace_damage` increases damage dealt using a mace.
 
 ### Healing
 
