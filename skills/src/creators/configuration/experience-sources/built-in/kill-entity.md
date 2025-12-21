@@ -18,6 +18,10 @@ There are three possible options:
 
 If not set then defaults to `excluded`.
 
+### Anti-farming per chunk
+
+Property `anti_farming_per_chunk` defines the [anti-farming per chunk](/creators/configuration/experience-sources/anti-farming/per-chunk) for this experience source.
+
 
 ## Operations
 
