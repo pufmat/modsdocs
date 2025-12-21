@@ -5,6 +5,20 @@ Experience Source `puffish_skills:kill_entity` gives experience when player kill
 This [Experience Source](/creators/configuration/experience-sources/experience-source) uses [Variables](/creators/configuration/calculations/variables) and [Calculation](/creators/configuration/calculations/calculation).
 
 
+## Properties
+
+### Tamed
+
+Property `tamed` defines how actions performed by tamed entities are counted by this experience source.
+
+There are three possible options:
+- `exclude` - Actions performed by tamed entities are ignored. Only actions performed by players are counted.
+- `include` - Both actions performed by players and tamed entities are counted.
+- `only` - Only actions performed by tamed entities are counted. Actions performed by players are ignored.
+
+If not set then defaults to `excluded`.
+
+
 ## Operations
 
 ### Get Player
