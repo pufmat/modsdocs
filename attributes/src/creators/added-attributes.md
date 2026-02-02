@@ -38,6 +38,7 @@ Some attributes are listed in multiple categories.
 - [Axe Damage](#axe-damage)
 - [Trident Damage](#trident-damage)
 - [Mace Damage](#mace-damage)
+- [Damage Reflection](#damage-reflection)
 :::
 
 ::: details Resistance attributes
@@ -72,6 +73,7 @@ Some attributes are listed in multiple categories.
 
 ::: details Mining attributes
 - [Fortune](#fortune)
+- [Breaking Speed](#breaking-speed)
 - [Mining Speed](#mining-speed)
 - [Pickaxe Speed](#pickaxe-speed)
 - [Axe Speed](#axe-speed)
@@ -81,6 +83,7 @@ Some attributes are listed in multiple categories.
 ::: details Movement attributes
 - [Jump](#jump)
 - [Sprinting Speed](#sprinting-speed)
+- [Mount Speed](#mount-speed)
 - [Stamina](#stamina)
 - [Fall Reduction](#fall-reduction)
 - [Stealth](#stealth)
@@ -112,10 +115,13 @@ Some attributes are listed in multiple categories.
 - [Melee Resistance](#melee-resistance)
 - [Ranged Resistance](#ranged-resistance)
 - [Tamed Resistance](#tamed-resistance)
+- [Breaking Speed](#breaking-speed)
 - [Mining Speed](#mining-speed)
 - [Pickaxe Speed](#pickaxe-speed)
 - [Axe Speed](#axe-speed)
 - [Shovel Speed](#shovel-speed)
+- [Mount Speed](#mount-speed)
+- [Consuming Speed](#consuming-speed)
 - [Sprinting Speed](#sprinting-speed)
 - [Knockback](#knockback)
 - [Repair Cost](#repair-cost)
@@ -126,6 +132,7 @@ Some attributes are listed in multiple categories.
 - [Magic Resistance Shred](#magic-resistance-shred)
 - [Melee Resistance Shred](#melee-resistance-shred)
 - [Ranged Resistance Shred](#ranged-resistance-shred)
+- [Damage Reflection](#damage-reflection)
 - [Natural Regeneration](#natural-regeneration)
 - [Stealth](#stealth)
 - [Life Steal](#life-steal)
@@ -213,9 +220,13 @@ Damage is considered ranged if damage source is indirect or damage type is in `m
 
 [Dynamic attribute] `puffish_attributes:tamed_resistance` deceases amount of taken damage for tamed entities which are owned by the player.
 
+### Breaking Speed
+
+[Dynamic attribute] `puffish_attributes:breaking_speed` increases block breaking speed of the player. This attribute affects speed ignoring whether use tool is correct.
+
 ### Mining Speed
 
-[Dynamic attribute] `puffish_attributes:mining_speed` increases mining speed of the player.
+[Dynamic attribute] `puffish_attributes:mining_speed` increases block mining speed of the player. This attribute affects speed only when correct tool is used.
 
 ### Pickaxe Speed
 
@@ -232,6 +243,14 @@ Damage is considered ranged if damage source is indirect or damage type is in `m
 ### Sprinting Speed
 
 [Dynamic attribute] `puffish_attributes:sprinting_speed` increases sprinting speed of the player.
+
+### Mount Speed
+
+[Dynamic attribute] `puffish_attributes:mount_speed` increases speed of entities ridden by the player.
+
+### Consuming Speed
+
+[Dynamic attribute] `puffish_attributes:consuming_speed` increases speed of food consumption by the player.
 
 ### Knockback
 
@@ -272,6 +291,10 @@ Damage is considered ranged if damage source is indirect or damage type is in `m
 ### Natural Regeneration
 
 [Dynamic attribute] `puffish_attributes:natural_regeneration` increases health that is restored by natural regeneration.
+
+### Damage Reflection
+
+[Dynamic attribute] `puffish_attributes:damage_reflection` reflects damage relative to received damage.
 
 ### Stealth
 
