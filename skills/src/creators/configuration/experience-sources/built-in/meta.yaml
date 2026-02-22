@@ -1,6 +1,7 @@
 collapsed: false
 sidebar:
   - craft-item: Craft Item
+  - criterion: Criterion
   - deal-damage: Deal Damage
   - eat-food: Eat Food
   - enchant-item: Enchant Item
