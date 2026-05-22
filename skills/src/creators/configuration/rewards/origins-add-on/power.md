@@ -8,6 +8,12 @@ This reward grants or revokes an Origins power for the player when the skill bec
 
 Property `power` defines the ID of the power that this reward will grant and revoke.
 
+### Operation
+
+Property `operation` defines whether the reward should grant or revoke power:
+- `add` - grants power when reward is unlocked
+- `remove` revokes power when reward is unlocked
+
 ## Example
 
 The following reward gives player a power `sprint_jump` from Origins.
@@ -26,3 +32,4 @@ The following reward gives player a power `sprint_jump` from Origins.
 |Property|Type|Required|
 |-|-|-|
 |`power`|string|yes|
+|`operation`|string|no|
