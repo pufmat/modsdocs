@@ -53,6 +53,7 @@ This is probably the most complex part of configuration.
 |Property|Description|
 |-|-|
 |`level_limit`|An integer. Defines the maximum level a player can reach.|
+|`reset_on_death`|A boolean. Defines whether experience should reset on player death.|
 |`experience_per_level`|An 'experience_per_level' object. Defines how much experience is needed to level up and gain point.|
 |`sources`|An array of `source` objects.|
 

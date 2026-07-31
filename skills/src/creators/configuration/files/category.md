@@ -40,6 +40,10 @@ Property `spent_points_limit` can be used to set maximum number of points that c
 
 Property `exclusive_root` can be used to set behavior of [root skills](/creators/configuration/skill#roots).
 
+### Erase on Death
+
+Property `erase_on_death` enables automatic category erase on player death. Disabled if not set.
+
 ## Example
 
 ```json
