@@ -17,7 +17,25 @@ const Not = () => "⛔ Unavailable";
 	</thead>
 	<tbody>
 		<tr>
-			<td>1.21 - 1.21.10</td>
+			<td>1.21.11 - 26.2</td>
+			<td><Yes /></td>
+			<td><Not /></td>
+			<td><Yes /></td>
+		</tr>
+		<tr>
+			<td>1.21.3 - 1.21.10</td>
+			<td><Old /></td>
+			<td><Not /></td>
+			<td><Old /></td>
+		</tr>
+		<tr>
+			<td>1.21.2</td>
+			<td><Not /></td>
+			<td><Not /></td>
+			<td><Not /></td>
+		</tr>
+		<tr>
+			<td>1.21 - 1.21.1</td>
 			<td><Yes /></td>
 			<td><Not /></td>
 			<td><Yes /></td>
@@ -30,9 +48,9 @@ const Not = () => "⛔ Unavailable";
 		</tr>
 		<tr>
 			<td>1.20.4</td>
-			<td><Yes /></td>
+			<td><Old /></td>
 			<td><Not /></td>
-			<td><Yes /></td>
+			<td><Old /></td>
 		</tr>
 		<tr>
 			<td>1.20.3</td>
@@ -41,7 +59,13 @@ const Not = () => "⛔ Unavailable";
 			<td><Not /></td>
 		</tr>
 		<tr>
-			<td>1.20 - 1.20.2</td>
+			<td>1.20.2</td>
+			<td><Old /></td>
+			<td><Old /></td>
+			<td><Not /></td>
+		</tr>
+		<tr>
+			<td>1.20 - 1.20.1</td>
 			<td><Yes /></td>
 			<td><Yes /></td>
 			<td><Not /></td>
