@@ -1,4 +1,4 @@
-collapsed: true
+collapsed: false
 sidebar:
   - config: config.json
   - category: category.json
@@ -6,3 +6,4 @@ sidebar:
   - skills: skills.json
   - connections: connections.json
   - experience: experience.json
+  - exchange: exchange.json

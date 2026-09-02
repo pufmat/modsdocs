@@ -2,7 +2,8 @@
 
 This config is used to define experience behavior such as how much experience is required to level up or how experience can be gained. It is located in the `experience.json` file inside each category folder. This file is optional, and if it is absent then experience is not enabled for this category.
 
-This is probably the most complex part of configuration.
+> [!NOTE]
+> Experience cannot be enabled when exchange is enabled.
 
 ## Example
 

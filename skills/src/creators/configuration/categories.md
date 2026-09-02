@@ -9,4 +9,5 @@ Each category has following configuration files:
 - [`skills.json`](/creators/configuration/files/skills)
 - [`connections.json`](/creators/configuration/files/connections)
 - [`experience.json`](/creators/configuration/files/experience)
+- [`exchange.json`](/creators/configuration/files/exchange)
 
