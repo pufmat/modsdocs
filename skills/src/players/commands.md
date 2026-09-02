@@ -16,6 +16,14 @@
 
 `/puffish_skills experience set <player> <category> <amount>`
 
+## Add Level
+
+`/puffish_skills level add <player> <category> <count>`
+
+## Set Level
+
+`/puffish_skills level set <player> <category> <count>`
+
 ## Unlock Skill
 
 `/puffish_skills skills unlock <player> <category> <skill>`
