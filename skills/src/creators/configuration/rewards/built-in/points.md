@@ -9,7 +9,7 @@ The following reward gives a player 3 points in category `example:phantom` for e
 	"type": "puffish_skills:points",
 	"data": {
 		"category": "example:phantom",
-		"points": 3,
+		"points": 3
 	}
 }
 ```
